@@ -4,4 +4,15 @@ To collect this data, I used the websites [Everyday Health](https://www.everyday
 
 Using Splinter, I was able to scrape the review data for each type of birth control from the two sites. I parsed through the HTML coding to extract the review content, numeric rating, publish date, and (when available) I used the regular expression function to extract the reason for using birth control for each review instance. I added all of these variables to a pandas dataframe so I could clean and arrange the data as desired. I also ran all the reviews through VADER sentiment analysis so I could gather more objective datapoints from the subjective feedback collected, and added these to my dataframe as well.
 
-Once I had extracted and organized the birth control data, I established connections with Amazon Web Services and MySQL so I could store my database both locally and remotely. One of the reviews caused errors in the transfer since it contained non-standard text (an emoji) so I dropped that row. Once I passed my dataset to AWS and MySQL using pandas to_sql function, I then read them back into my notebook to verify that the information populated correctly. Now that I have an amazing collection of data on this topic, I’m very excited to see what I can learn about birth control!
+Once I had extracted and organized the birth control data, I established connections with Amazon Web Services and MySQL so I could store my database both locally and remotely. One of the reviews caused errors in the transfer since it contained non-standard text (an emoji) so I dropped that row. Once I passed my dataset to AWS and MySQL using pandas to_sql function, I then read them back into my notebook to verify that the information populated correctly. 
+
+Additionally, we compiled the reported side effects (by the pharmaceutical companies) for each drug from [RxList](https://www.rxlist.com) which we put into a datapbase and saved on AWS and MySQL as well.
+
+Now that I have an amazing collection of data on this topic, I’m very excited to see what I can learn about birth control!
+
+[Click here to see how we pulled data from Everyday Health](https://github.com/alyzaw/project2_bc_data/blob/master/Project_2_Birth_Control.ipynb)
+
+[Click here to see how we pulled data from Drugs.com](https://github.com/alyzaw/project2_bc_data/blob/master/Project_2_Birth_Control_Site2.ipynb)
+
+[Click here to see how we pulled data from RxList]
+(https://github.com/alyzaw/project2_bc_data/blob/master/Project2_Side_Effects.ipynb)
