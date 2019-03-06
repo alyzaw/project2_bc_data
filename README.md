@@ -6,7 +6,7 @@ Using Splinter, I was able to scrape the review data for each type of birth cont
 
 Once I had extracted and organized the birth control data, I established connections with Amazon Web Services and MySQL so I could store my database both locally and remotely. One of the reviews caused errors in the transfer since it contained non-standard text (an emoji) so I dropped that row. Once I passed my dataset to AWS and MySQL using pandas to_sql function, I then read them back into my notebook to verify that the information populated correctly. 
 
-Additionally, we compiled the reported side effects (by the pharmaceutical companies) for each drug from [RxList](https://www.rxlist.com) which we put into a datapbase and saved on AWS and MySQL as well.
+Additionally, we compiled the reported side effects (by the pharmaceutical companies) for each drug from [RxList](https://www.rxlist.com) which we put into a database and saved on AWS and MySQL as well.
 
 Now that I have an amazing collection of data on this topic, I’m very excited to see what I can learn about birth control!
 
