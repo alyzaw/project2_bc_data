@@ -15,8 +15,3 @@ Now that I have an amazing collection of data on this topic, I’m very excited 
 [Click here to see how we pulled data from Drugs.com](https://github.com/alyzaw/project2_bc_data/blob/master/Project_2_Birth_Control_Site2.ipynb)
 
 [Click here to see how we pulled data from RxList](https://github.com/alyzaw/project2_bc_data/blob/master/Project2_Side_Effects.ipynb)
->>>>>>> 
-
-Issues experienced in the web scraping for the birth control symptoms:
-
-During the scraping process it was apparent that unlike previous examples there existed identical sections and I would need to dig down into the third existence of the section. I am still in the process of trying to figure out this process through a suggestion from TA's to utilize CSS select scripts. ======= Once I had extracted and organized the birth control data, I established connections with Amazon Web Services and MySQL so I could store my database both locally and remotely. One of the reviews caused errors in the transfer since it contained non-standard text (an emoji) so I dropped that row. Once I passed my dataset to AWS and MySQL using pandas to_sql function, I then read them back into my notebook to verify that the information populated correctly.
