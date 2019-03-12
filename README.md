@@ -15,7 +15,7 @@ Now that I have an amazing collection of data on this topic, I’m very excited 
 [Click here to see how we pulled data from Drugs.com](https://github.com/alyzaw/project2_bc_data/blob/master/Project_2_Birth_Control_Site2.ipynb)
 
 [Click here to see how we pulled data from RxList](https://github.com/alyzaw/project2_bc_data/blob/master/Project2_Side_Effects.ipynb)
->>>>>>> 24b2e9d34e5063d8958763976a7bba051005165b
+>>>>>>> 
 
 Issues experienced in the web scraping for the birth control symptoms:
 
